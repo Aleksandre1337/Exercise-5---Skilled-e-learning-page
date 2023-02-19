@@ -4,8 +4,8 @@ This is a solution to the [Skilled e-learning landing page](https://www.frontend
 
 ### Links
 
-- Solution URL: [Click here](not available yet)
-- Live Site URL: [Click here](not yet available)
+- Solution URL: [Click here](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q)
+- Live Site URL: [Click here](https://starlit-torrone-3fc6e2.netlify.app/)
 
 ### Created with
 
