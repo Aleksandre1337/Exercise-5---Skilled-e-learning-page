@@ -1,0 +1,269 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    background-repeat: no-repeat;
+    background-position-y: 837px;
+}
+
+main {
+    margin-left: 165.79px;
+    margin-right: 165px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    margin-left: 165.79px;
+    margin-right: 165px;
+}
+
+header .btn {
+    background: #13183F;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 56px;
+    width: 167px;
+    border-radius: 30px;
+    border: none;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+header .btn:hover {
+    background: #666CA3;
+    border-radius: 28px;
+}
+
+.hero-container {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    position: relative;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 1.6rem;
+}
+
+.hero-text h1 {
+    font-weight: 800;
+    color: #13183F;
+    font-size: 56px;
+    line-height: 71px;
+}
+
+.hero-text p {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    font-size: 18px;
+    color: #83869A;
+}
+
+.hero-text button {
+    width: 167px;
+    height: 56px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(#F02AA6, #FF6f48);
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.hero-text button:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+}
+
+.hero-image {
+    background: url("/assets/image-hero-desktop.png");
+    background-repeat: no-repeat;
+    width: 991.63px;
+    height: 936.92px;
+    top: -200px;
+    right: -430px;
+    position: absolute;
+}
+
+
+.courses-container {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 322px 322px;
+    row-gap: 8rem;
+    justify-content: space-between;
+    background: transparent;
+}
+
+.course-advert {
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 15px;
+    width: 350px;
+    height: 322px;
+}
+
+.course-advert h2 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin: 64px 32px 138px 32px;
+
+}
+
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+    width: 350px;
+    height: 322px;
+}
+
+.card h2 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: #13183F;
+    margin-bottom: 24px;
+    margin-left: 32px;
+}
+
+.card p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    width: 286px;
+    height: 112px;
+    margin-bottom: 24px;
+    margin-left: 32px;
+}
+
+
+.card .btn {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F74780;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin-left: 32px;
+}
+
+.card .btn:hover {
+    color: #FFA7C3;
+    cursor: pointer;
+}
+
+.card img {
+    margin-bottom: 32px;
+    margin-top: -28px;
+    margin-left: 32px;
+}
+
+footer {
+    width: 100%;
+    height: 120px;
+    background: #13183F;
+    margin-top: 140px;
+}
+
+footer .btn {
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    border-radius: 28px;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 56px;
+    width: 167px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+footer .btn:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    border-radius: 28px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 768px) {
+    body{
+        overflow-x: none;
+    }
+    main {
+        width: 100%;
+        margin-left: 39px;
+        margin-right: 39px;
+    }
+    footer {
+        width: 100%;
+    }
+    .courses-container {
+        display: grid;
+        grid-template-columns: 339px 339px;
+        grid-template-rows: 259px 259px;
+        row-gap: 7rem;
+        column-gap: 0.6rem;
+        justify-content: space-between;
+        background: transparent;
+    }
+    .hero-image {
+        background: url(/assets/image-hero-tablet.png);
+        top: -184px;
+        right: -688px;
+        background-repeat: no-repeat;
+    }
+    .header-container {
+        margin-right: 39px;
+        margin-left: 39px;
+        width: 100%;
+    }
+    .header-logo {
+        width: 89px;
+        height: 35px;
+    }
+    header .btn {
+        width: 140px;
+        height: 48px;
+    }
+    .card h2{
+        font-size:20px;
+    }
+    .card p{
+        font-size:16px;
+        height: 78px;
+    }
+    .card, .course-advert {
+        width: 339px;
+        height: 259px;
+    }
+}
